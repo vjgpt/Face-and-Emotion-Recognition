@@ -29,7 +29,7 @@ This software recognizes person's faces and their corresponding emotions from a 
 `tar -xzf fer2013.tar`
 - Download train_emotion_classifier.py from orriaga's repo [here](https://github.com/oarriaga/face_classification/blob/master/src/train_emotion_classifier.py)
 - Run the train_emotion_classification.py file:
-`python3 train_emotion_classifier.py`
+`python train_emotion_classifier.py`
 
 ## Deep Learning Model
 
