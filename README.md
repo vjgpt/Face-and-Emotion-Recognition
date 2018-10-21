@@ -1,6 +1,24 @@
-# Emotion
-This software recognizes human faces and their corresponding emotions from a video or webcam feed. Powered by OpenCV and Deep Learning.
+#Face and Emotion Recognition
+This software recognizes person's faces and their corresponding emotions from a video or webcam feed. Powered by OpenCV, Dlib, face_recognition and Deep Learning.
 
+## Dependencies
+- Opencv
+- Dlib
+- [face_recognition](https://github.com/ageitgey/face_recognition)
+- Keras
+
+## Usage
+- Download a .dat file from [here](https://drive.google.com/open?id=1hyDn8eJ5yaTVkMgdKGmoFIn48zwdvIkg) and put in the folder.
+- `test` folder contain images or video that we will feed to the model.
+- `images` folder contain only images of person face to perform face recognition.
+- `models` contain the pre-trained model for emotion classifier.
+- `emotion.py` can to run to classify emotions of person's face.
+- `face-rec-emotion.py` can recognise faces and classify emotion at a time.
+- face_recognition library uses the FaceNet Implementation for face recognition.For more details please visit [here](https://github.com/ageitgey/face_recognition)
+
+`python emotion.py`
+
+`python face-rec-emotion.py`
 
 
 ## To train new models for emotion classification
@@ -23,5 +41,6 @@ The model used is from this [research paper](https://github.com/oarriaga/face_cl
 
 * Computer vision powered by OpenCV.
 * Neural network scaffolding powered by Keras with Tensorflow.
+* FaceNet [Research Paper](https://arxiv.org/pdf/1503.03832.pdf)
 * Convolutional Neural Network (CNN) deep learning architecture is from this [research paper](https://github.com/oarriaga/face_classification/blob/master/report.pdf).
 * Pretrained Keras model and much of the OpenCV code provided by GitHub user [oarriaga](https://github.com/oarriaga).
