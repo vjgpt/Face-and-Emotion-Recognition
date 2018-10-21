@@ -1,4 +1,4 @@
-#Face and Emotion Recognition
+# Face and Emotion Recognition
 This software recognizes person's faces and their corresponding emotions from a video or webcam feed. Powered by OpenCV, Dlib, face_recognition and Deep Learning.
 
 ## Dependencies
