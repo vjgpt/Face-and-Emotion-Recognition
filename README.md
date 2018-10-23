@@ -1,6 +1,9 @@
 # Face and Emotion Recognition
 This software recognizes person's faces and their corresponding emotions from a video or webcam feed. Powered by OpenCV, Dlib, face_recognition and Deep Learning.
 
+## Demo
+![Image](https://github.com/vjgpt/Face-and-Emotion-Recognition/tree/master/test/tested.gif)
+
 ## Dependencies
 - Opencv
 - Dlib
