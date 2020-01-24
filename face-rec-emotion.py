@@ -27,7 +27,7 @@ emotion_offsets = (20, 40)
 detector = dlib.get_frontal_face_detector()
 emotion_classifier = load_model(emotion_model_path)
 
-predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+# predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
 # getting input model shapes for inference
 emotion_target_size = emotion_classifier.input_shape[1:3]

@@ -7,12 +7,15 @@ This software recognizes person's faces and their corresponding emotions from a 
 
 ## Dependencies
 - Opencv
+- Cmake
 - Dlib
 - [face_recognition](https://github.com/ageitgey/face_recognition)
 - Keras
 
+Note : If you are facing issues installing dlib in your system then use google collab its comes as pre-installed.
+
 ## Usage
-- Download a `shape_predictor_68_face_landmarks.dat` file from [here](https://drive.google.com/open?id=1hyDn8eJ5yaTVkMgdKGmoFIn48zwdvIkg) and put in the folder.
+<!-- - Download a `shape_predictor_68_face_landmarks.dat` file from [here](https://drive.google.com/open?id=1hyDn8eJ5yaTVkMgdKGmoFIn48zwdvIkg) and put in the folder. -->
 - `test` folder contain images or video that we will feed to the model.
 - `images` folder contain only images of person face to perform face recognition.
 - `models` contain the pre-trained model for emotion classifier.
